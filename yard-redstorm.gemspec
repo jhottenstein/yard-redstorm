@@ -6,8 +6,8 @@ require 'yard/redstorm/version'
 Gem::Specification.new do |spec|
   spec.name          = "yard-redstorm"
   spec.version       = Yard::Redstorm::VERSION
-  spec.authors       = ["Midpoint Applications"]
-  spec.email         = ["dl-kestrelmidpointapplications@exchange.boeing.com"]
+  spec.authors       = ["Jess Hottenstein"]
+  spec.email         = ["jess@hottenste.in"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
   spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "test-unit"
+  spec.add_development_dependency "shoulda-context"
 end
